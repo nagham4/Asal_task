@@ -36,3 +36,41 @@ html {
     background-color: var(--main-color); 
     border-radius: 0.73vw; 
 }
+.flexContainer {
+    display: flex;
+    margin: 3.85rem;
+    padding: 2rem;
+    width: 100%;
+    align-items: center;
+    image {
+        max-width: 50%;
+    }
+}
+#aboutt {
+
+    p {
+    margin-top: 1.563rem;
+    margin-bottom: 2.813rem;
+    line-height: 1.063rem;
+    word-break: break-all;
+    max-width: 36.6vw;
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+}
+.child {
+    flex: 1;
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 1.25rem;
+    /*width:800px; height: 450px; margin-left: -70px;*/
+}
+.learn {
+    text-decoration: none;
+    background-color: var(--main-color);
+    color: white;
+    padding: 0.438rem 0.938rem;
+    margin-top: 3.125rem;
+}
