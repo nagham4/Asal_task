@@ -18,3 +18,21 @@
     font-size: 3vw;
     margin-bottom: 5vw;
 }
+.ReviewsContainer
+{
+    display: flex;
+    justify-content: center;
+    gap: 1.2vw;
+    flex-wrap: wrap;
+}
+.Card
+{
+    width: 22vw;
+    padding: 1vw;
+    box-shadow: 0 0 5px #008080;
+    background-color: white;
+    position: relative;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+
+}
