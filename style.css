@@ -134,3 +134,14 @@ html {
     padding: 0.125rem;
     font-size: 0.625rem;
 }
+.john {
+    color: rgb(159 151 151);
+    padding-bottom: 0.625rem;
+}
+.learn2 {
+    margin-top: 3.125rem;
+    text-decoration: none; 
+    border: 2px solid var(--main-color); 
+    padding: 0.438rem 0.938rem; 
+    color: black;
+}
