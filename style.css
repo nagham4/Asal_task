@@ -118,3 +118,19 @@ html {
 .featuredChild:hover {
     box-shadow: 0px 0px 3px 0px var(--main-color);
 }
+.dollars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.313rem;
+}
+.dollar1 {
+    text-align: center;
+    padding: 0.125rem;
+    padding-bottom: 0.625rem;
+}
+.dollar2 {
+    text-decoration: line-through;
+    padding: 0.125rem;
+    font-size: 0.625rem;
+}
