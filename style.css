@@ -145,3 +145,37 @@ html {
     padding: 0.438rem 0.938rem; 
     color: black;
 }
+.arrivalsParent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1.25rem 1.5rem 10.625rem 1.5rem;
+}
+.arrivalsChild {
+    flex: 0 0 ;/****************/
+    box-sizing: border-box;
+    min-width: 180px;
+    max-width: 280px;
+    height: 275px;
+    margin: 0.5rem 2.125rem;
+    text-align: center;
+    border: 1px solid #928484;
+    p, a {
+        padding-bottom: 0.375rem;
+    }
+    p {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1rem;
+    }
+    i {
+    padding-bottom: 0.938rem;
+    color: var(--main-color);
+    }
+}
+.arrivalsChild:hover {
+    box-shadow: 0px 0px 3px 0px var(--main-color);
+    cursor: pointer;
+}
