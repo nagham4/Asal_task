@@ -1,3 +1,166 @@
+
+
+
+
+:root {
+    --main-color:#089da1;
+}
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-blend-mode: lighten;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+html {
+    scroll-behavior: smooth;
+    font-size: small;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-size: 16px;
+}
+
+::-webkit-scrollbar {
+    width: 0.73vw; /* for vertical scrollbar */
+    height: 0.37vw; /* for horizontal scrollbar */
+}
+::-webkit-scrollbar-track { /* المسار */
+    background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb { /* القطعة يلي منمسكها لنحرك */
+    background-color: var(--main-color); 
+    border-radius: 0.73vw; 
+}
+.flexContainer {
+    display: flex;
+    margin: 3.85rem;
+    padding: 2rem;
+    width: 100%;
+    align-items: center;
+    image {
+        max-width: 50%;
+    }
+}
+#aboutt {
+
+    p {
+    margin-top: 1.563rem;
+    margin-bottom: 2.813rem;
+    line-height: 1.063rem;
+    word-break: break-all;
+    max-width: 36.6vw;
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+}
+.child {
+    flex: 1;
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 1.25rem;
+    /*width:800px; height: 450px; margin-left: -70px;*/
+}
+.learn {
+    text-decoration: none;
+    background-color: var(--main-color);
+    color: white;
+    padding: 0.438rem 0.938rem;
+    margin-top: 3.125rem;
+}
+.h2 {
+    font-size: 2.188rem;
+    text-align: center;
+    margin-top: 14.063rem;
+}
+.featuredParent {
+    display: flex;
+    /*justify-content: space-between;*/
+    margin: 2.5rem;
+    overflow-x: scroll;
+    width: 100%;
+}
+.featuredChild {
+    flex: 1;
+    font-size: small;
+    min-width: 200px;
+    max-width: 300px;
+    height: 345px;
+    padding: 0.313rem;
+    margin: 1.063rem;
+    text-align: center;
+    border: 1px solid #928484;
+    img{
+    width: 125px;
+    height: 187px;
+    } 
+    a{
+    text-decoration: none;
+    color: black;
+    border: 2px solid var(--main-color);
+    padding: 0.313rem 0.938rem 0.625rem;/**********************************************padding-bottom:10px*/
+    }
+    h1 {
+    font-size: 1.125rem;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    }
+    .thriller {
+        color: var(--main-color);
+    }
+}
+.featuredChild:hover {
+    box-shadow: 0px 0px 3px 0px var(--main-color);
+}
+.dollars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.313rem;
+}
+.dollar1 {
+    text-align: center;
+    padding: 0.125rem;
+    padding-bottom: 0.625rem;
+}
+.dollar2 {
+    text-decoration: line-through;
+    padding: 0.125rem;
+    font-size: 0.625rem;
+}
+.john {
+    color: rgb(159 151 151);
+    padding-bottom: 0.625rem;
+}
+.learn2 {
+    margin-top: 3.125rem;
+    text-decoration: none; 
+    border: 2px solid var(--main-color); 
+    padding: 0.438rem 0.938rem; 
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /*reviews*/
 *
 {
