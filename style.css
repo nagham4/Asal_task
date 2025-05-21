@@ -277,3 +277,24 @@ p
     transition: background 0.3s ease-in-out;
 
 }
+
+/*Blog*/
+
+.Blog
+{
+    font-size: 2vw;
+    margin-top: 1.5vw;
+
+}
+.BlogContainer
+{
+    padding: 1vw;
+    display: flex;
+    justify-content: center;
+    margin-left: 7vw;
+    margin-right: 7vw;
+    justify-content: center;
+    gap: 6vw;
+    margin-top: 3vw;
+    margin-bottom: 2vw;
+}
