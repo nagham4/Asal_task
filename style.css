@@ -239,7 +239,16 @@ html {
         color: #333;
         line-height: 1.5;
     }
+}
 
+.Icons
+{
+    margin-bottom: 1vw;
+    text-align: left;
 
+    i
+    {
+        font-size: 1vw;
+    }
 
 }
