@@ -315,3 +315,22 @@ p
     height: 17.823vw;
     object-fit: cover;
 }
+
+.Bloger
+{
+  width: 27vw;
+  h2
+    {
+    display: flex;
+    font-size: 1.5vw;
+    padding-left: 1vw;
+    margin-top: 0.5vw;
+    color: #089da1;
+}
+
+
+
+
+
+
+}
