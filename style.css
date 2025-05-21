@@ -337,9 +337,12 @@ p
         padding-left: 1vw;
         margin-top: .5vw;
     }
+}
 
-
-
-
-
+.BlogIcons
+{
+    font-size: 1.1vw;
+    display: flex;
+    justify-content: space-around;
+    gap: 20.5vw;
 }
