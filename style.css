@@ -199,48 +199,46 @@ html {
     transition: transform 0.3s ease;
 
 }
-.User_avatar_quote
-{
-    display:flex;
+.User_avatar_quote {
+    display: flex;
     align-items: center;
     column-gap: 6.5vw;
     margin-top: -1.521vw;
     justify-content: space-around;
-}
-.User_avatar_quote 
-{
-    image
+
+    img 
     {
         width: 6vw;
         height: 6vw;
         object-fit: cover;
         border-radius: 50%;
     }
-     i
+
+    i 
     {
         font-size: 9vw;
-        color: #999; 
+        color: #999;
         opacity: 0.6;
     }
-
+    
 }
-.UserName_Paragraph 
+.UserName_Paragraph
 {
-    h2
-    {
-        font-size: 1.2vw;
-        text-align: left;
-        margin: 1vw 0 0.5vw;
-    }
-    p
-    {
-        font-size: 0.8vw;
-        text-align: justify;
-        color: #333;
-        line-height: 1.5;
-    }
+     h2
+{
+    font-size: 1.2vw;
+    text-align: left;
+    margin: 1vw 0 0.5vw;
+}
+p
+{
+    font-size: 0.8vw;
+    text-align: justify;
+    color: #333;
+    line-height: 1.5;
 }
 
+}
 .Icons
 {
     margin-bottom: 1vw;
@@ -250,5 +248,32 @@ html {
     {
         font-size: 1vw;
     }
+
+}
+
+
+/*Banner*/
+.Banner
+{
+    width: 100%;
+    height: 26vw;
+    background-image: url(./image/banner.jpg);
+    background-size: cover;
+    margin-top: 6vw;
+}
+.BtnBanner 
+{
+    background-color: rgb(0, 128, 128);
+    color: rgb(255, 255, 255);
+    font-size: 0.9vw;
+    cursor: pointer;
+    margin-left: -78vw;
+    margin-top: 17.5vw;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    padding: 0.45vw 1.1vw;
+    transition: background 0.3s ease-in-out;
 
 }
