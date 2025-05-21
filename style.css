@@ -321,13 +321,22 @@ p
   width: 27vw;
   h2
     {
-    display: flex;
-    font-size: 1.5vw;
-    padding-left: 1vw;
-    margin-top: 0.5vw;
-    color: #089da1;
-}
-
+        display: flex;
+        font-size: 1.5vw;
+        padding-left: 1vw;
+        margin-top: 0.5vw;
+        color: #089da1;
+    }
+    p
+    {
+        font-size: 1vw;
+        text-align: justify;
+        color: #333;
+        line-height: 1.5;
+        padding-right: 1vw;
+        padding-left: 1vw;
+        margin-top: .5vw;
+    }
 
 
 
