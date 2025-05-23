@@ -271,8 +271,9 @@ html {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
-    padding: 3vw 0;
+    padding: 3vw -1vw;
     font-size:x-large;
+    margin-top: 2vw;
 }
 .ReviewsTitle
 {
@@ -288,7 +289,8 @@ html {
 }
 .Card
 {
-    width: 22vw;
+    width: 23vw;
+    height: 23vw;
     padding: 1vw;
     box-shadow: 0 0 5px #008080;
     background-color: white;
@@ -330,7 +332,7 @@ html {
 }
 p
 {
-    font-size: 0.8vw;
+    font-size: 0.9vw;
     text-align: justify;
     color: #333;
     line-height: 1.5;
@@ -340,7 +342,8 @@ p
 .Icons
 {
     margin-bottom: 1vw;
-    text-align: left;
+    display: flex;
+    margin-top: 1vw;
 
     i
     {
@@ -612,4 +615,19 @@ p
         padding-left: 1vw;
     }
 
+}
+.End
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-size: 1vw;
+  padding: 1vw;
+
+  span
+    {
+        color: #008080;
+        margin-left: 0.5vw;
+    }
 }
