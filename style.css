@@ -478,3 +478,26 @@ p
     color: black;
     }
 }
+
+.Subscraib
+{
+  width: 18vw;
+  height: 2.5vw;
+  background: #cdcaca;
+  border-radius: 2vw;
+  display: flex;
+  align-items: center;
+  margin-left: 4vw;
+  
+    input
+    {
+    
+        height: 100%;
+        border: none;
+        outline: none;
+        font-size: 1vw;
+        background: none;
+        padding-left: 1vw;
+    }
+
+}
