@@ -575,4 +575,41 @@ p
     margin: 1.2vw 0 1.2vw -6vw;
     color: black;
     }
+
+    button 
+    {
+        border: none;
+        width: 7vw;
+        height: 2.3vw;
+        background-color: #008080;
+        border-radius: 2vw;
+        cursor: pointer;
+        color: white;
+        font-size: 1vw;
+        margin-right: 7vw;
+        margin-top: 0.2vw;
+    }
+}
+
+.Subscraib
+{
+  width: 18vw;
+  height: 2.5vw;
+  background: #cdcaca;
+  border-radius: 2vw;
+  display: flex;
+  align-items: center;
+  margin-left: 4vw;
+  
+    input
+    {
+    
+        height: 100%;
+        border: none;
+        outline: none;
+        font-size: 1vw;
+        background: none;
+        padding-left: 1vw;
+    }
+
 }
