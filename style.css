@@ -465,3 +465,16 @@ p
     display: flex;
     justify-content: space-around;
 }
+
+.FooterNewsletter
+{
+    padding: 2.083vw;
+    flex: 0 0 20%;
+
+    h1
+    {
+    font-size: 1.5vw;
+    margin: 1.2vw 0 1.2vw -6vw;
+    color: black;
+    }
+}
