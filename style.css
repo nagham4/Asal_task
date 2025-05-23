@@ -386,3 +386,26 @@ p
 
 
 }
+
+.FooterLinks
+{
+    padding: 2.083vw;
+    flex: 0 0 17%;
+
+    h1
+    {
+        font-size: 1.5vw;
+        margin: 1.5vw 0 1.5vw 0;
+        color: black;
+    }
+    a
+    {
+        display: flex;
+        color: black;
+        text-decoration: none;
+        margin: 0.417vw 0;
+        font-size: 1vw;
+        margin-left: 2.2vw;
+    }
+
+}
