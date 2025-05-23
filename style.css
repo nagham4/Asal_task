@@ -477,6 +477,20 @@ p
     margin: 1.2vw 0 1.2vw -6vw;
     color: black;
     }
+
+    button 
+    {
+        border: none;
+        width: 7vw;
+        height: 2.3vw;
+        background-color: #008080;
+        border-radius: 2vw;
+        cursor: pointer;
+        color: white;
+        font-size: 1vw;
+        margin-right: 7vw;
+        margin-top: 0.2vw;
+    }
 }
 
 .Subscraib
