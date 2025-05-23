@@ -159,7 +159,7 @@ html {
     margin: 1.25rem 1.5rem 10.625rem 1.5rem;
 }
 .arrivalsChild {
-    flex: 0 0 ;/****************/
+    flex: 0 0 ;
     box-sizing: border-box;
     min-width: 180px;
     max-width: 280px;
@@ -206,7 +206,50 @@ html {
 .imgContainer :hover {
     transform: scale(1.2);
 }
-
+@media screen and (max-width: 768px)
+{
+    .flexContainer{
+        width: calc(100%-1.46vw);
+        padding: 0.769rem;
+        /*display: block;*/
+    }
+    .about p{
+        width: 100%;
+    }
+    .about 
+    .featuredParent {
+        flex-direction: column;
+        padding: 2rem;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 450px)
+{
+    .child {
+        margin: 3.5rem;
+    }
+    .arrivalsParent {
+    grid-template-columns: repeat(1, 1fr); /* صفين فقط */
+}
+}
+@media screen and (max-width: 1250px)
+{
+    .flexContainer {
+        margin: 0px;
+    }
+    .featuredParent {
+        margin: 0px;
+    }
+    .child img {
+        width: 48.76vw;
+    }
+}
+@media screen and (max-width: 700px)
+{
+    .flexContainer {
+        display: block;
+    }
+}
 
 
 
