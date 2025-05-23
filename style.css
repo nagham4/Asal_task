@@ -149,10 +149,6 @@ html {
     padding: 0.438rem 0.938rem; 
     color: black;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 5377787c1888101ef9394760e6d12db6041baaf5
 .arrivalsParent {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -186,8 +182,6 @@ html {
 .arrivalsChild:hover {
     box-shadow: 0px 0px 3px 0px var(--main-color);
     cursor: pointer;
-<<<<<<< HEAD
-=======
 }
 @media (max-width: 1024px) {
 .arrivalsParent {
@@ -406,5 +400,4 @@ p
     display: flex;
     justify-content: space-around;
     gap: 20.5vw;
->>>>>>> 5377787c1888101ef9394760e6d12db6041baaf5
 }
