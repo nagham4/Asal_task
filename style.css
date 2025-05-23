@@ -444,3 +444,66 @@ p
     justify-content: space-around;
     gap: 20.5vw;
 }
+
+/*Footer*/
+.Footer
+{
+    width: 100%;
+    background-color:#e7e7e7;
+}
+.FooterContainer
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0vw 5vw 2vw 5vw;
+
+}
+
+.FooterLogo
+{
+   padding: 3.083vw;
+   flex: 0 0 20%;
+
+    img
+    {
+        width: 8vw;
+        margin-left: -6vw;
+        margin-top: -1vw;
+
+    }
+
+    p
+    {
+        font-size: 1vw;
+        text-align: justify;
+        justify-content: flex;
+        margin-top: 1vw;
+
+    }
+
+
+}
+
+.FooterLinks
+{
+    padding: 2.083vw;
+    flex: 0 0 17%;
+
+    h1
+    {
+        font-size: 1.5vw;
+        margin: 1.5vw 0 1.5vw 0;
+        color: black;
+    }
+    a
+    {
+        display: flex;
+        color: black;
+        text-decoration: none;
+        margin: 0.417vw 0;
+        font-size: 1vw;
+        margin-left: 2.2vw;
+    }
+
+}
