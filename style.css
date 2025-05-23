@@ -515,3 +515,18 @@ p
     }
 
 }
+.End
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-size: 1vw;
+  padding: 1vw;
+
+  span
+    {
+        color: #008080;
+        margin-left: 0.5vw;
+    }
+}
