@@ -361,3 +361,28 @@ p
     padding: 0vw 5vw 2vw 5vw;
 
 }
+
+.FooterLogo
+{
+   padding: 3.083vw;
+   flex: 0 0 20%;
+
+    img
+    {
+        width: 8vw;
+        margin-left: -6vw;
+        margin-top: -1vw;
+
+    }
+
+    p
+    {
+        font-size: 1vw;
+        text-align: justify;
+        justify-content: flex;
+        margin-top: 1vw;
+
+    }
+
+
+}
