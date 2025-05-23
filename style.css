@@ -346,3 +346,18 @@ p
     justify-content: space-around;
     gap: 20.5vw;
 }
+
+/*Footer*/
+.Footer
+{
+    width: 100%;
+    background-color:#e7e7e7;
+}
+.FooterContainer
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0vw 5vw 2vw 5vw;
+
+}
