@@ -460,3 +460,8 @@ p
         
     }
 }
+.FollowUsIcons
+{
+    display: flex;
+    justify-content: space-around;
+}
