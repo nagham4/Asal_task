@@ -162,6 +162,12 @@ html {
 
 
 /*reviews*/
+:root {
+    --main-beige:#eaeaea;;
+}
+:root {
+    --main-Turquoise:#089da1;
+}
 *
 {
     margin: 0;
@@ -219,7 +225,7 @@ html {
     i 
     {
         font-size: 9vw;
-        color: #999;
+        color:var(--main-beige);
         opacity: 0.6;
     }
     
@@ -250,6 +256,7 @@ p
     i
     {
         font-size: 1vw;
+        color: var(--main-Turquoise);
     }
 
 }
@@ -348,6 +355,11 @@ p
     display: flex;
     justify-content: space-around;
     gap: 20.5vw;
+
+    i
+    {
+        color:var(--main-Turquoise);
+    }
 }
 
 /*Footer*/
