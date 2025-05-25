@@ -1,7 +1,6 @@
 
 
 
-
 :root {
     --main-color:#089da1;
 }
@@ -40,6 +39,62 @@ html {
     background-color: var(--main-color); 
     border-radius: 0.73vw; 
 }
+
+section{
+    width: 100%;
+    height: 100vh;
+    background-image: url(bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+section nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 0 10px #089da1;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+section nav .logo img{
+    width: 100px;
+    cursor: pointer;
+    margin: 8px 0;
+}
+
+section nav ul{
+    list-style: none;
+}
+
+section nav li{
+   display: inline-block;
+    padding: 0 10px;
+}
+
+section nav li a{
+    text-decoration: none;
+    color: #000;
+}
+
+section nav li a:hover{
+    color: #089da1;
+}
+
+section nav .social_icon i{
+    margin: 0 5px;
+    font-size: 18px;
+}
+
+section nav .social_icon i:hover{
+    color: #089da1;
+    cursor: pointer;
+}
+
 .flexContainer {
     display: flex;
     margin: 3.85rem;
@@ -278,8 +333,9 @@ html {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
-    padding: 3vw 0;
+    padding: 3vw -1vw;
     font-size:x-large;
+    margin-top: 2vw;
 }
 .ReviewsTitle
 {
@@ -295,7 +351,8 @@ html {
 }
 .Card
 {
-    width: 22vw;
+    width: 23vw;
+    height: 23vw;
     padding: 1vw;
     box-shadow: 0 0 5px #008080;
     background-color: white;
@@ -337,7 +394,7 @@ html {
 }
 p
 {
-    font-size: 0.8vw;
+    font-size: 0.9vw;
     text-align: justify;
     color: #333;
     line-height: 1.5;
@@ -347,7 +404,8 @@ p
 .Icons
 {
     margin-bottom: 1vw;
-    text-align: left;
+    display: flex;
+    margin-top: 1vw;
 
     i
     {
@@ -451,3 +509,189 @@ p
     justify-content: space-around;
     gap: 20.5vw;
 }
+
+
+/*Footer*/
+.Footer
+{
+    width: 100%;
+    background-color:#e7e7e7;
+}
+.FooterContainer
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0vw 5vw 2vw 5vw;
+
+}
+
+.FooterLogo
+{
+   padding: 3.083vw;
+   flex: 0 0 20%;
+
+    img
+    {
+        width: 8vw;
+        margin-left: -6vw;
+        margin-top: -1vw;
+
+    }
+
+    p
+    {
+        font-size: 1vw;
+        text-align: justify;
+        justify-content: flex;
+        margin-top: 1vw;
+
+    }
+
+
+}
+
+.FooterLinks
+{
+    padding: 2.083vw;
+    flex: 0 0 17%;
+
+    h1
+    {
+        font-size: 1.5vw;
+        margin: 1.5vw 0 1.5vw 0;
+        color: black;
+    }
+    a
+    {
+        display: flex;
+        color: black;
+        text-decoration: none;
+        margin: 0.417vw 0;
+        font-size: 1vw;
+        margin-left: 2.2vw;
+    }
+
+}
+.FooterContact
+{
+    padding: 2.083vw;
+    flex: 0 0 17%;
+
+    h1
+        {
+        font-size: 1.5vw;
+        margin: 1.5vw 0 1.5vw 0;
+        color: black;
+        }
+        a 
+        {
+            display: flex;
+            color: black;
+            text-decoration: none;
+            margin: 0.417vw 0;
+            font-size: 1vw;
+            margin-left: 2.2vw;
+        }
+        i
+        {
+            margin-right: 0.5vw;
+        }
+}
+.FooterSocial
+{
+    padding: 2.083vw;
+    flex: 0 0 13%;
+
+    h1
+    {
+        font-size: 1.5vw;
+        margin: 1.5vw 0 0.7vw 0;
+        color: black;
+    }
+
+    a
+    {
+        color: black;
+        text-decoration: none;
+        font-size: 1vw;
+        display: inline;
+    }
+
+    i
+    {
+        margin: 0.417vw 0;
+        
+    }
+}
+.FollowUsIcons
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.FooterNewsletter
+{
+    padding: 2.083vw;
+    flex: 0 0 20%;
+
+    h1
+    {
+    font-size: 1.5vw;
+    margin: 1.2vw 0 1.2vw -6vw;
+    color: black;
+    }
+
+    button 
+    {
+        border: none;
+        width: 7vw;
+        height: 2.3vw;
+        background-color: #008080;
+        border-radius: 2vw;
+        cursor: pointer;
+        color: white;
+        font-size: 1vw;
+        margin-right: 7vw;
+        margin-top: 0.2vw;
+    }
+}
+
+.Subscraib
+{
+  width: 18vw;
+  height: 2.5vw;
+  background: #cdcaca;
+  border-radius: 2vw;
+  display: flex;
+  align-items: center;
+  margin-left: 4vw;
+  
+    input
+    {
+    
+        height: 100%;
+        border: none;
+        outline: none;
+        font-size: 1vw;
+        background: none;
+        padding-left: 1vw;
+    }
+
+}
+.End
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-size: 1vw;
+  padding: 1vw;
+
+  span
+    {
+        color: #008080;
+        margin-left: 0.5vw;
+    }
+}
+
