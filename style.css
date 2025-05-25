@@ -271,6 +271,13 @@ section nav .social_icon i:hover{
     .about p{
         width: 100%;
     }
+     #about p{
+        width: 100%;
+        max-width: 70.6vw;
+    }
+    .child {
+        max-width: 100%;
+    }
     .about 
     .featuredParent {
         flex-direction: column;
@@ -503,6 +510,7 @@ p
     gap: 20.5vw;
 }
 
+
 /*Footer*/
 .Footer
 {
@@ -686,3 +694,4 @@ p
         margin-left: 0.5vw;
     }
 }
+
