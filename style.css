@@ -322,6 +322,15 @@ section nav .social_icon i:hover{
 
 
 /*reviews*/
+:root {
+    --main-beige:#eaeaea;;
+}
+:root {
+    --main-Turquoise:#089da1;
+}
+:root {
+    --main-Black:black;
+}
 *
 {
     margin: 0;
@@ -379,7 +388,7 @@ section nav .social_icon i:hover{
     i 
     {
         font-size: 9vw;
-        color: #999;
+        color:var(--main-beige);
         opacity: 0.6;
     }
     
@@ -410,6 +419,7 @@ p
     i
     {
         font-size: 1vw;
+        color: var(--main-Turquoise);
     }
 
 }
@@ -488,7 +498,7 @@ p
         font-size: 1.5vw;
         padding-left: 1vw;
         margin-top: 0.5vw;
-        color: #089da1;
+        color:var(--main-Turquoise);
     }
     p
     {
@@ -508,6 +518,11 @@ p
     display: flex;
     justify-content: space-around;
     gap: 20.5vw;
+
+    i
+    {
+        color:var(--main-Turquoise);
+    }
 }
 
 
@@ -560,12 +575,12 @@ p
     {
         font-size: 1.5vw;
         margin: 1.5vw 0 1.5vw 0;
-        color: black;
+        color:var(--main-Black);
     }
     a
     {
         display: flex;
-        color: black;
+        color:var(--main-Black);
         text-decoration: none;
         margin: 0.417vw 0;
         font-size: 1vw;
@@ -582,12 +597,12 @@ p
         {
         font-size: 1.5vw;
         margin: 1.5vw 0 1.5vw 0;
-        color: black;
+        color:var(--main-Black);
         }
         a 
         {
             display: flex;
-            color: black;
+            color:var(--main-Black);
             text-decoration: none;
             margin: 0.417vw 0;
             font-size: 1vw;
@@ -607,12 +622,12 @@ p
     {
         font-size: 1.5vw;
         margin: 1.5vw 0 0.7vw 0;
-        color: black;
+        color:var(--main-Black);
     }
 
     a
     {
-        color: black;
+        color:var(--main-Black);
         text-decoration: none;
         font-size: 1vw;
         display: inline;
@@ -639,7 +654,7 @@ p
     {
     font-size: 1.5vw;
     margin: 1.2vw 0 1.2vw -6vw;
-    color: black;
+    color:var(--main-Black);
     }
 
     button 
@@ -684,7 +699,7 @@ p
   display: flex;
   align-items: center;
   justify-content: center;
-  color: black;
+  color:var(--main-Black);
   font-size: 1vw;
   padding: 1vw;
 
