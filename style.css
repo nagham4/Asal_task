@@ -216,6 +216,13 @@ html {
     .about p{
         width: 100%;
     }
+     #about p{
+        width: 100%;
+        max-width: 70.6vw;
+    }
+    .child {
+        max-width: 100%;
+    }
     .about 
     .featuredParent {
         flex-direction: column;
