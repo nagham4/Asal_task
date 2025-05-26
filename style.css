@@ -86,12 +86,12 @@ section nav li a:hover{
     color: var(--main-color);
 }
 
-section nav .social_icon i{
+section nav .socialIcon i{
     margin: 0 5px;
     font-size: 18px;
 }
 
-section nav .social_icon i:hover{
+section nav .socialIcon i:hover{
     color: var(--main-color);
     cursor: pointer;
 }
@@ -330,9 +330,6 @@ section nav .social_icon i:hover{
     --main-beige:#eaeaea;;
 }
 :root {
-    --main-Turquoise:var(--main-color);
-}
-:root {
     --main-Black:black;
 }
 *
@@ -423,7 +420,7 @@ p
     i
     {
         font-size: 1vw;
-        color: var(--main-Turquoise);
+        color: var(--main-color);
     }
 
 }
@@ -502,7 +499,7 @@ p
         font-size: 1.5vw;
         padding-left: 1vw;
         margin-top: 0.5vw;
-        color:var(--main-Turquoise);
+        color:var(--main-color);
     }
     p
     {
@@ -525,7 +522,7 @@ p
 
     i
     {
-        color:var(--main-Turquoise);
+        color:var(--main-color);
     }
 }
 
