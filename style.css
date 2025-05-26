@@ -50,10 +50,11 @@ section{
 
 section nav{
     width: 100%;
+    height: 10%;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    box-shadow: 0 0 10px #089da1;
+    box-shadow: 0 0 10px var(--main-color);
     background: #fff;
     position: fixed;
     top: 0;
@@ -82,7 +83,7 @@ section nav li a{
 }
 
 section nav li a:hover{
-    color: #089da1;
+    color: var(--main-color);
 }
 
 section nav .social_icon i{
@@ -91,7 +92,7 @@ section nav .social_icon i{
 }
 
 section nav .social_icon i:hover{
-    color: #089da1;
+    color: var(--main-color);
     cursor: pointer;
 }
 
@@ -284,6 +285,9 @@ section nav .social_icon i:hover{
         padding: 2rem;
         text-align: center;
     }
+    section nav {
+        height: 5%;
+    }
 }
 @media screen and (max-width: 450px)
 {
@@ -326,7 +330,7 @@ section nav .social_icon i:hover{
     --main-beige:#eaeaea;;
 }
 :root {
-    --main-Turquoise:#089da1;
+    --main-Turquoise:var(--main-color);
 }
 :root {
     --main-Black:black;
