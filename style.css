@@ -29,15 +29,15 @@ html {
 }
 
 ::-webkit-scrollbar {
-    width: 0.73vw; /* for vertical scrollbar */
-    height: 0.37vw; /* for horizontal scrollbar */
+    width: 10px; /* for vertical scrollbar */
+    height: 5px; /* for horizontal scrollbar */
 }
 ::-webkit-scrollbar-track { /* المسار */
     background: #f1f1f1; 
 }
 ::-webkit-scrollbar-thumb { /* القطعة يلي منمسكها لنحرك */
     background-color: var(--main-color); 
-    border-radius: 0.73vw; 
+    border-radius: 10px; 
 }
 
 section{
@@ -72,7 +72,7 @@ section nav ul{
 }
 
 section nav li{
-   display: inline-block;
+    display: inline-block;
     padding: 0 10px;
 }
 
@@ -271,7 +271,7 @@ section nav .social_icon i:hover{
     .about p{
         width: 100%;
     }
-     #about p{
+    #about p{
         width: 100%;
         max-width: 70.6vw;
     }
@@ -491,8 +491,8 @@ p
 
 .Bloger
 {
-  width: 27vw;
-  h2
+    width: 27vw;
+    h2
     {
         display: flex;
         font-size: 1.5vw;
@@ -543,8 +543,8 @@ p
 
 .FooterLogo
 {
-   padding: 3.083vw;
-   flex: 0 0 20%;
+    padding: 3.083vw;
+    flex: 0 0 20%;
 
     img
     {
@@ -674,14 +674,14 @@ p
 
 .Subscraib
 {
-  width: 18vw;
-  height: 2.5vw;
-  background: #cdcaca;
-  border-radius: 2vw;
-  display: flex;
-  align-items: center;
-  margin-left: 4vw;
-  
+    width: 18vw;
+    height: 2.5vw;
+    background: #cdcaca;
+    border-radius: 2vw;
+    display: flex;
+    align-items: center;
+    margin-left: 4vw;
+
     input
     {
     
@@ -696,17 +696,16 @@ p
 }
 .End
 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color:var(--main-Black);
-  font-size: 1vw;
-  padding: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:var(--main-Black);
+    font-size: 1vw;
+    padding: 1vw;
 
-  span
+    span
     {
         color: #008080;
         margin-left: 0.5vw;
     }
 }
-
