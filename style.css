@@ -124,7 +124,7 @@ section .main p{
     left: 25px;
 }
 
-section .main .main_tag .main_btn{
+section .main .mainTag .mainBtn{
     background: #089da1;
     padding: 10px 20px;
     position: relative;
@@ -134,7 +134,7 @@ section .main .main_tag .main_btn{
     text-decoration: none;
 }
 
-section .main .main_img img{
+section .main .mainImg img{
     width: 780px;
     position: relative;
     top: 90px;
@@ -147,7 +147,7 @@ section .main .main_img img{
     margin: 35px 0;
 }
 
-.services .services_box{
+.services .servicesBox{
     width: 95%;
     margin: 0 auto;
     display: flex;
@@ -155,7 +155,7 @@ section .main .main_img img{
     justify-content: space-around;
 }
 
-.services .services_box .services_card{
+.services .servicesBox .servicesCard{
     text-align: center;
     width: 310px;
     height: auto;
@@ -163,14 +163,14 @@ section .main .main_img img{
     padding: 15px 10px;
 }
 
-.services .services_box .services_card i{
+.services .servicesBox .servicesCard i{
     color: #089da1;
     font-size: 45px;
     margin-bottom: 15px;
     cursor: pointer;
 }
 
-.services .services_box .services_card h3{
+.services .servicesBox .servicesCard h3{
     margin-bottom: 10px;
 }
 
