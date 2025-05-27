@@ -178,6 +178,18 @@ section .main .mainImg img{
     }
 }
 
+@media (max-width: 768px) {
+    .services .servicesBox {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .services .servicesBox .servicesCard {
+        width: 45%; 
+        margin: 2% 2%;
+    }
+}
+
 
 .flexContainer {
     display: flex;
@@ -399,12 +411,6 @@ section .main .mainImg img{
         display: block;
     }
 }
-
-
-
-
-
-
 
 
 
