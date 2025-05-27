@@ -400,7 +400,7 @@ p
 
 
 
-@media screen and (max-width: 420px) {
+@media screen and (min-width: 400px) and (max-width: 420px){
     .ReviewsSection
 {
     text-align: center;
@@ -712,4 +712,36 @@ padding-top: 4vh;
     padding: 1vw;
     font-size: 4vw;
 }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1400px) {
+
+    .ReviewsContainer {
+    display: grid;
+    row-gap: 2.2vw;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    margin: 0vw 16vw;
+}
+.BlogContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2vw;  
+  margin: 3vw 15vw;
+}
+
+.Bloger_i {
+  width: 27vw;
+  height: 31vw;
+  box-shadow: 0 0 5px rgb(93, 93, 93);
+  position: relative;
+  box-sizing: border-box;
+  transition: transform 0.3s ease;
+  background-color: white;
+  margin: 1vw;  
+}
+
+
+
 }
