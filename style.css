@@ -378,6 +378,11 @@ section .main .mainImg img{
     .arrivalsParent {
     grid-template-columns: repeat(1, 1fr); /* صفين فقط */
 }
+    .main {
+        .mainImg img{
+            display: none;
+        }
+    }
 }
 @media screen and (max-width: 1250px)
 {
