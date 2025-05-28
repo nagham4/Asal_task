@@ -665,6 +665,10 @@ p
         font-size: 1vw;
         margin-left: 2.2vw;
     }
+    a:hover
+    {
+        color: var(--main-color);
+    }
 
 }
 .FooterContact
